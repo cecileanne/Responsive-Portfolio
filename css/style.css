@@ -1,217 +1,258 @@
-body{
-    background: url("../images/morocco.png");
-    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-    color: #777777 ;
-    height: 100% ;
-    width: 100% ;
-    box-sizing: border-box;
+body {
+  background: url("../images/morocco.png");
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #777777;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 a {
-    color: #777777 ;
+  color: #777777;
 }
 
-a:link, a:visited {
-    text-decoration: none ;
+a:link,
+a:visited {
+  text-decoration: none;
 }
 
 a:visited {
-    color: #778888 ;
+  color: #778888;
 }
 
 header {
-    background: #ffffff;
-    border-bottom: solid;
-    width: 100% ;
-    height: 80px ;
-    border-width: 3px;
-    border-color: #cccccc;
-    margin: 0px ;
-    position: fixed ;
-    top: 0 ;
-    z-index: 10 ;
+  background: #ffffff;
+  border-bottom: solid;
+  width: 100%;
+  height: 80px;
+  border-width: 3px;
+  border-color: #cccccc;
+  margin: 0px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    float: none;
+    width: 100%;
+  }
 }
 
 .topbarcontent {
-    background: white;
-    width: 100%;
-    margin: 0px ;
-    overflow: auto ;
+  background: white;
+  width: 100%;
+  margin: 0px;
+  overflow: auto;
 }
 
 #myname {
-    background-color:#4aaaa5;
-    width: 300px ;
-    height: 100% ;
-    padding: 26px 15px 26px 15px;
-    text-align:center;
-    float: left ;
-    margin-left: 10% ;
+  background-color: #4aaaa5;
+  width: 300px;
+  height: 100%;
+  padding: 26px 15px 26px 15px;
+  text-align: center;
+  float: left;
+  margin-left: 10%;
 }
-h1, h1 a:link, h1 a:visited {
-    color: #ffffff ;
-    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-    font-size: 28px ;
+h1,
+h1 a:link,
+h1 a:visited {
+  color: #ffffff;
+  font-family: "Georgia", "Times", "Times New Roman", serif;
+  font-size: 28px;
 }
 
-h2, h2 a:link, h2 a:visited {
-    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-    font-size: 18px ;
-    font-weight: normal ;
-    padding-top: 15px ;
-    padding-bottom: 15px ;
-    text-decoration: none ;
-    color: #ffffff ;
+@media screen and (max-width: 760px) {
+  #myname {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+h2,
+h2 a:link,
+h2 a:visited {
+  font-family: "Georgia", "Times", "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 a:hover {
-    opacity: 0.5 ;
+  opacity: 0.5;
 }
 
 #pagelinks {
-    float: right ;
-    margin-top: 30px ;
-    margin-right: 80px ;
+  float: right;
+  margin-top: 30px;
+  margin-right: 80px;
 }
 
 nav li {
-    list-style-type: none ;
-    display: inline ;
-    padding-left: 15px ;
-    padding-right: 15px ;
+  list-style-type: none;
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 nav {
-    float: right ;
+  float: right;
 }
 
 .linelinkseparationstart {
-    border-left: solid ;
-    border-width: 1px ;
-    border-color: #cccccc;
+  border-left: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+}
+
+@media screen and (max-width: 760px) {
+  #pagelinks {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
 }
 
 .container {
-    max-width: 960px ;
-    background: #ffffff ;
-    border-style: solid ;
-    border-color: #cccccc ;
-    border-width: 1px ;
-    margin-bottom: 60px ;
-    margin: 0 auto ;
-    margin-top: 100px ;
-    padding: 20px 50px 20px 50px ;
-    clear: both ;
+  max-width: 960px;
+  background: #ffffff;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  margin-bottom: 60px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px 50px 20px 50px;
+  clear: both;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    float: none;
+    width: 90%;
+    max-width: 760px;
+    margin: 0;
+    margin-top: 130px;
+  }
 }
 
 .container h1 {
-    color: #4aaaa5 ;
-    font-size: 28px ;
+  color: #4aaaa5;
+  font-size: 28px;
 }
 
 .container hr {
-    color: #cccccc ;
+  color: #cccccc;
 }
 
 #bio-image {
-    margin-right: 20px ;
-    width: 200px ;
-    border-style: solid ;
-    border-color: #cccccc ;
-    border-width: 1px;
-    float: left ;
+  margin-right: 20px;
+  width: 200px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  float: left;
 }
 
 .container li {
-    list-style-type: circle ; 
-    margin-left: 30px ;
-    margin-top: 3px ;
+  list-style-type: circle;
+  margin-left: 30px;
+  margin-top: 3px;
 }
 
 .portfolioItem {
-    display: inline-block ;
-    width: 250px;
-    margin: 30px ;
-    position: relative ;
+  display: inline-block;
+  width: 250px;
+  margin: 30px;
+  position: relative;
 }
 
 .portfolioItem img {
-    z-index: 1 ;
-    position: relative ;
-    width: 100% ;
-    height: 100% ;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .portfolionameoverlay {
-    background: #4aaaa5 ;
-    color: #ffffff ;
-    text-align: center ;
-    width: 250px ;
-    position: absolute ;
-    top: 145px ;
-    z-index: 2 ;
+  background: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  width: 250px;
+  position: absolute;
+  top: 145px;
+  z-index: 2;
 }
 
 .portfolioItem a:hover {
-    opacity: 50% ;
+  opacity: 50%;
 }
 
 label {
-    color: #666666 ;
-    font-size: 12px ;
+  color: #666666;
+  font-size: 12px;
 }
 
-input, textarea {
-    padding-top: 5px ;
-    padding-bottom: 5px ;
-    padding-left: 5px ;
-    border: solid ;
-    border-width: 1px ;
-    border-color: #cccccc ;
-    width: 100% ;
-    margin-top: 5px ;
-    margin-bottom: 20px ;
+input,
+textarea {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 input::placeholder {
-    color: #777777
+  color: #777777;
 }
 
 #message {
-    padding: 5px ;
-    border: solid ;
-    border-width: 1px ;
-    border-color: #cccccc ;
-    width: 100% ;
-    height: 150px ;
+  padding: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  width: 100%;
+  height: 150px;
 }
 
 input[type="submit"] {
-    color: #ffffff ;
-    background: #4aaaa5 ;
-    text-align: center ;
-    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif ;
-    font-size: 12px ;
-    width: 80px ;
-    height: 35px ;
+  color: #ffffff;
+  background: #4aaaa5;
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  width: 80px;
+  height: 35px;
 }
 
 footer {
-    text-align: center ;
-    font-size: 8px ;
-    padding-top: 15px ;
-    padding-bottom: 4px ;
-    color: #cccccc ;
-    background: #666666;
-    border-top: solid ;
-    border-width: 3px ;
-    border-color: #4aaaa5 ;
-    width: 100% ;
-    position: fixed ;
-    bottom: 0 ;
-    z-index: 5 ;
+  text-align: center;
+  font-size: 8px;
+  padding-top: 15px;
+  padding-bottom: 4px;
+  color: #cccccc;
+  background: #666666;
+  border-top: solid;
+  border-width: 3px;
+  border-color: #4aaaa5;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
 }
 
 footer:after {
-    content:"Copyright © 2019 Cecile-Anne Sison" ;
+  content: "Copyright © 2019 Cecile-Anne Sison";
 }
