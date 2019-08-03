@@ -140,7 +140,6 @@ nav {
 @media screen and (max-width: 760px) {
   .container {
     float: none;
-    width: 90%;
     max-width: 760px;
     margin: 0;
     margin-top: 130px;
