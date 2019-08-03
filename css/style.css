@@ -115,7 +115,7 @@ nav {
   #pagelinks {
     float: left;
     width: 100%;
-    padding-left: 25px;
+    padding-left: 10%;
     padding-top: 0px;
     padding-bottom: 10px;
     border-bottom: solid;
@@ -126,6 +126,7 @@ nav {
 
 .container {
   max-width: 960px;
+  min-width: 360px;
   background: #ffffff;
   border-style: solid;
   border-color: #cccccc;
@@ -144,12 +145,6 @@ nav {
     margin: 0;
     margin-top: 150px;
     padding: 20px 50px 20px 50px;
-  }
-}
-
-@media screen and (max-width: 374px) {
-  img {
-    margin-bottom: 10px;
   }
 }
 
