@@ -1,6 +1,7 @@
 body {
   background: url("../images/morocco.png");
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  /* font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+  font-family: "Abel", sans-serif;
   color: #777777;
   height: 100%;
   width: 100%;
@@ -60,7 +61,8 @@ h1,
 h1 a:link,
 h1 a:visited {
   color: #ffffff;
-  font-family: "Georgia", "Times", "Times New Roman", serif;
+  /* font-family: "Georgia", "Times", "Times New Roman", serif; */
+  font-family: "Abel", sans-serif;
   font-size: 28px;
 }
 
@@ -75,7 +77,8 @@ h1 a:visited {
 h2,
 h2 a:link,
 h2 a:visited {
-  font-family: "Georgia", "Times", "Times New Roman", serif;
+  /* font-family: "Georgia", "Times", "Times New Roman", serif; */
+  font-family: "Abel", sans-serif;
   font-size: 18px;
   font-weight: normal;
   padding-top: 15px;
@@ -235,7 +238,8 @@ input[type="submit"] {
   color: #ffffff;
   background: #4aaaa5;
   text-align: center;
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  /* font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+  font-family: "Abel", sans-serif;
   font-size: 12px;
   width: 80px;
   height: 35px;
